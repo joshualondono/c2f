@@ -2,7 +2,16 @@
  * Your code here!
  ******************************************************************************/
 
+function convert(celsius) 
+{
+  let c_temp = celsius;
+  let c_to_f = c_temp * 9 / 5 + 32;
+  let message = c_temp + ' degrees Celsius is ' + c_to_f + ' degrees in Fahrenheit.';
+    console.log(message);
+}
 
+let c_value = getInput();
+convert(c_value);
 
 
 
