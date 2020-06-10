@@ -10,7 +10,7 @@ function convert(celsius)
     console.log(message);
 }
 
-let c_value = getInput();
+let c_value = getInput(0);
 convert(c_value);
 
 
